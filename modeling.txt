@@ -1,0 +1,30 @@
+The Neo4j components that are used to define the graph data model are:
+1) Nodes
+2) Labels
+3) Relationships
+4) Properties
+
+Refactoring is very common in the development process.
+
+Types of Models:
+When performing the graph data modeling process for an application, you will need at least two types of models:
+1) Data model
+2) Instance model
+
+The nouns are used to define the nodes.
+The verbs are used to define the relationship.
+
+When you define a property for a relationship, it is because your use cases ask a
+specific question about how two nodes are related, not just that they are related.
+
+A really important factor with testing the graph is scalability. 
+How will these queries perform if the graph has millions of nodes or relationships?
+
+IMP) Refractoring Graph!
+To refactor a graph data model and a graph, you must:
+1) Design the new data model.
+2) Write Cypher code to transform the existing graph to implement the new data model.
+3) Retest all use cases, possibly with updated Cypher code.
+
+Refactoring to specialize relationships:
+Relationships are fast to traverse and they do not take up a lot of space in the graph.
