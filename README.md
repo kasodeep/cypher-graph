@@ -55,17 +55,17 @@ Explore techniques for querying data in Neo4j using Cypher:
 
 Learn how to modify data in your Neo4j database using Cypher:
 
-- Creating Nodes and Relationships
-- Updating Properties
-- Deleting Nodes and Relationships
+- `Creating` Nodes and Relationships
+- `Updating` Properties
+- `Deleting` Nodes and Relationships
 - Batch Importing Data
 
 ## Advanced Topics
 
 Dive deeper into advanced topics and best practices for working with Cypher:
 
-- Indexes and Constraints
-- Transactions and Error Handling
+- `Indexes` and `Constraints`
+- `Transactions` and Error Handling
 - Cypher Optimization Techniques
 - Using Cypher with Other Languages
 
@@ -73,8 +73,8 @@ Dive deeper into advanced topics and best practices for working with Cypher:
 
 Discover additional resources for learning Cypher and mastering graph databases:
 
-- Official Neo4j Documentation
-- Cypher Cheat Sheets
+- Official Neo4j `Documentation`
+- Cypher `Cheat Sheets`
 - Online Courses and Tutorials
 - Community Forums and Q&A
 
@@ -82,4 +82,4 @@ Discover additional resources for learning Cypher and mastering graph databases:
 
 If you'd like to contribute to this repository, feel free to submit pull requests with improvements, additional examples, or corrections.
 
-Happy graph querying!
+Happy `graph` querying!
