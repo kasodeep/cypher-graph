@@ -14,7 +14,16 @@ WHERE p.name STARTS
 WITH 'Michael'
 RETURN p.name
 
-// toLower function.
+MATCH (m:Movie)
+WHERE m.title ENDS
+WITH ' I'
+RETURN m.title, m.released
+
+MATCH (m:Movie)
+WHERE m.title CONTAINS 'River'
+RETURN m.title, m.released
+
+// toLower function -> This also creates in-sensitive checking.
 MATCH (p:Person)-[:ACTED_IN]->()
 WHERE toLower(p.name) STARTS
 WITH 'michael'
