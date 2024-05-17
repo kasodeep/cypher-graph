@@ -3,6 +3,7 @@ CALL db.schema.visualization()
 // to view the properties of the nodes and relations.
 CALL db.schema.nodeTypeProperties()
 CALL db.schema.relTypeProperties()
+CALL apoc.meta.nodeTypeProperties()
 
 // to view the indexes.
 SHOW CONSTRAINTS
